@@ -32,3 +32,6 @@ _Base
 # Visual Studio
 .vs
 CMakeSettings.json
+
+# logs
+/_logs/
