@@ -14,7 +14,7 @@ hunter_add_version(
 	URL
 	"https://github.com/FelikZ/fruit/archive/v3.1.1.1-vic.tar.gz"
 	SHA1
-	11075b3404a7c76edf00670a2b7af401bc44372f
+	e2ca52b970774bfa0e0843d219500860740f1c00
 )
 
 hunter_cmake_args(
