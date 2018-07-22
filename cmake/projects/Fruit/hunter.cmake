@@ -8,11 +8,11 @@ hunter_add_version(
 	PACKAGE_NAME
 	Fruit
 	VERSION
-	"3.0.0"
+	"3.1.1"
 	URL
-	"https://github.com/google/fruit/archive/v3.0.0.tar.gz"
+	"https://github.com/FelikZ/fruit/archive/v3.1.1.1-vic.tar.gz"
 	SHA1
-	57fbf2417894b15169ef3cf30575271ce8ba2ead
+	f9fe974e9bc43c6c5060ce1d2bd578cb6fe828a8
 )
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
@@ -23,5 +23,5 @@ MESSAGE(STATUS "Fruit CMAKE_BUILD_TYPE: ${CMAKE_BUILD_TYPE}")
 hunter_cmake_args(
 	Fruit
 	CMAKE_ARGS
-	"CMAKE_BUILD_TYPE=${CMAKE_BUILD_TYPE} FRUIT_USES_BOOST=False"
+	FRUIT_USES_BOOST=False
 )
