@@ -18,8 +18,10 @@ hunter_add_version(
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
 hunter_download(PACKAGE_NAME Fruit)
 
+MESSAGE(STATUS "Fruit CMAKE_BUILD_TYPE: ${CMAKE_BUILD_TYPE}")
+
 hunter_cmake_args(
 	Fruit
 	CMAKE_ARGS
-	"CMAKE_BUILD_TYPE=$<CMAKE_BUILD_TYPE> FRUIT_USES_BOOST=False"
+	"CMAKE_BUILD_TYPE=${CMAKE_BUILD_TYPE} FRUIT_USES_BOOST=False"
 )
