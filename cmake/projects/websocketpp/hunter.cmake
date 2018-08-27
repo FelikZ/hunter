@@ -44,9 +44,9 @@ hunter_add_version(
   VERSION
   "0.8.1-p0"
   URL
-  "https://github.com/FelikZ/websocketpp/archive/v0.8.1-p0.tar.gz"
+  "https://github.com/hunter-packages/websocketpp/archive/v0.8.1-p0.tar.gz"
   SHA1
-  5ccdaa626414c668719f9f9a85b0428ca71f232c
+  def22a3337b9f4022b7ad3004782be4be38f17e3
   )
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
