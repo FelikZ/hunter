@@ -82,7 +82,7 @@ hunter_add_version(
     PACKAGE_NAME
     glfw
     VERSION
-    "3.3.0-p5"
+    "3.3.0-f9923e9-p0"
     URL
     "https://github.com/hunter-packages/glfw/archive/v3.3.0-f9923e9-p0.tar.gz"
     SHA1
